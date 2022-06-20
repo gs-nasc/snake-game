@@ -49,7 +49,6 @@
         },
         event: {
             init: () => {
-                document.getElementById("restart").addEventListener("click", game.restart);
                 document.addEventListener("keydown", game.snake.changeDirection);
                 document.addEventListener("onEat", game.snake.eat);
                 document.addEventListener("onLose", game.lose);
